@@ -1,0 +1,17 @@
+set core_voltage 1.1V
+set cell0_charge_state 0.8
+set other_cells_charge_state 0.8
+set pv_modifier 0.0
+set SA_eq_W 141nm
+set R_per_cell 60
+set psense_act 4ns
+set nsense_act 4ns
+set tech_node 7
+set cell_cap 16.7fF
+set wl0_act_time 20ns
+set other_wls_act_time 20ns
+set cells_per_BL_short 512
+set cells_per_BL_long 512
+set wl0_act 0.0
+set wl1_act 1.0
+set isol_tran_act 0ns

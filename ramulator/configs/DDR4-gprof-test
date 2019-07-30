@@ -1,0 +1,39 @@
+########################
+# Example config file
+# Comments start with #
+# There are restrictions for valid channel/rank numbers
+ standard = DDR4
+ channels = 1
+ ranks = 1
+ speed = DDR4_3200
+ org = DDR4_8Gb_x8
+# record_cmd_trace: (default is off): on, off
+ record_cmd_trace = off
+# print_cmd_trace: (default is off): on, off
+ print_cmd_trace = off
+
+### Below are parameters only for CPU trace
+ # cpu_tick / mem_tick determines how fast the CPU works compared to the
+ # memory controller.
+ # The memory bus operates at different frequency, specified by the
+ # selected standard.
+ # For example, using 5 / 2 we can assume a processor running at 4GHz and a
+ # memory controller running at 1600 MHz
+ # TODO: the memory bus only can operate at memory controller's frequency
+ # now. Make sure to properly set the cpu_tick to mem_tick ratio to
+ # properly model target system's frequency
+ cpu_tick = 5
+ mem_tick = 2
+### Below are parameters only for multicore mode
+# When early_exit is on, all cores will be terminated when the earliest one finishes.
+ early_exit = off
+# early_exit = on, off (default value is on)
+# If expected_limit_insts is set, some per-core statistics will be recorded when this limit (or the end of the whole trace if it's shorter than specified limit) is reached. The simulation won't stop and will roll back automatically until the last one reaches the limit.
+ expected_limit_insts = 10000000
+ warmup_insts=0
+ cache = L3
+# cache = no, L1L2, L3, all (default value is no)
+ translation = Random
+# translation = None, Random (default value is None)
+#
+########################
