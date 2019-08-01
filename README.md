@@ -6,6 +6,8 @@ the ISCA'19 paper:
 >"[**CROW: A Low-Cost Substrate for Improving DRAM Performance, Energy Efficiency, and Reliability**](https://people.inf.ethz.ch/omutlu/pub/CROW-DRAM-substrate-for-performance-energy-reliability_isca19.pdf)".
 >In _Proceedings of the International Symposium on Computer Architecture (ISCA)_, June 2019.
 
+Please cite the above work if you make use of any of the tools provided in this repository.
+
 
 ## 1. Evaluating CROW's Performance
 
