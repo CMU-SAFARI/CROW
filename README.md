@@ -8,6 +8,12 @@ the ISCA'19 paper:
 [Lightning Talk Video](https://www.youtube.com/watch?v=8Ml5sz63Jbc)
 [Full Talk Video](https://www.youtube.com/watch?v=FckbkwW1u_E)
 
+The architectural simulator is built on Ramulator, which is described in this earlier work:
+
+Yoongu Kim, Weikun Yang, and Onur Mutlu, "[Ramulator: A Fast and Extensible DRAM Simulator](https://people.inf.ethz.ch/omutlu/pub/ramulator_dram_simulator-ieee-cal15.pdf)". IEEE Computer Architecture Letters (CAL), March 2015. 
+
+Please cite the above works if you make use of the tools provided in this repository.
+
 
 ## 1. Evaluating CROW's Performance
 
