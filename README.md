@@ -7,7 +7,7 @@ the ISCA'19 paper:
 >In _Proceedings of the International Symposium on Computer Architecture (ISCA)_, June 2019.
 
 The presentations of the paper are available on YouTube:
->[Lightning Talk Video](https://www.youtube.com/watch?v=8Ml5sz63Jbc)
+>[Lightning Talk Video](https://www.youtube.com/watch?v=8Ml5sz63Jbc)\
 >[Full Talk Video](https://www.youtube.com/watch?v=FckbkwW1u_E)
 
 The architectural simulator is built on Ramulator, which is described in this earlier work:
