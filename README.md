@@ -6,9 +6,9 @@ the ISCA'19 paper:
 >"[**CROW: A Low-Cost Substrate for Improving DRAM Performance, Energy Efficiency, and Reliability**](https://people.inf.ethz.ch/omutlu/pub/CROW-DRAM-substrate-for-performance-energy-reliability_isca19.pdf)".
 >In _Proceedings of the International Symposium on Computer Architecture (ISCA)_, June 2019.
 
-[Lightning Talk Video](https://www.youtube.com/watch?v=8Ml5sz63Jbc)
-
-[Full Talk Video](https://www.youtube.com/watch?v=FckbkwW1u_E)
+The presentations of the paper are available on YouTube:
+>[Lightning Talk Video](https://www.youtube.com/watch?v=8Ml5sz63Jbc)
+>[Full Talk Video](https://www.youtube.com/watch?v=FckbkwW1u_E)
 
 The architectural simulator is built on Ramulator, which is described in this earlier work:
 
